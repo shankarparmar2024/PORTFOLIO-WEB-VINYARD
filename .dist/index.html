@@ -42,11 +42,17 @@
         </p>
 
         <!-- Ordered List showing benefits -->
-        <ol>
-            <li>Improves Logical Thinking</li>
-            <li>Enhances Problem-Solving Skills</li>
-            <li>Builds Real-World Applications</li>
-        </ol>
+        <ol id="benefitList">
+    <li>Improves Logical Thinking</li>
+    <li>Enhances Problem-Solving Skills</li>
+    <li>Builds Real-World Applications</li>
+</ol>
+
+<!-- Input field to add new benefit -->
+<input type="text" id="benefitInput" placeholder="Add new benefit">
+
+<!-- Button to add benefit -->
+<button id="addBenefitBtn">Add Benefit</button>
     </section>
 
     <!-- ===== ABOUT SECTION ===== -->
@@ -105,7 +111,8 @@
         <h2>Contact Me</h2>
 
         <!-- Simple Contact Form -->
-        <form>
+        <form id="contactForm">
+            
             <!-- Name Input -->
             <input type="text" placeholder="Enter Your Name" required>
 
@@ -120,14 +127,16 @@
         </form>
     </section>
 
+    
     <!-- ===== FOOTER SECTION ===== -->
     <footer>
         <p>Connect with me:</p>
-        <a href="https://www.linkedin.com/">LinkedIn</a> |
-        <a href="https://github.com/">GitHub</a>
+        <a href="https://www.linkedin.com/in/shankar-suman-singh-parmar-272a372b6">LinkedIn</a> |
+        <a href="https://github.com/shankarparmar2024">GitHub</a>
 
         <p>© 2026 Shankar Suman. All Rights Reserved.</p>
+    <p id="dateTime"></p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
